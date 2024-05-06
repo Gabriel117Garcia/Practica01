@@ -31,7 +31,7 @@ public class Practica1Application {
 					} catch (Exception e) {
 						System.out.println("Error al leer el número de la tabla");
 					}
-					for (int i = 1; i <= 5 && i >= 2; i++) {
+					for (int i = 1; i <= 10 && i > 1; i++) {
 						System.out.println(tabla + " x " + i + " = " + tabla * i);
 					}
 					break;
@@ -44,9 +44,7 @@ public class Practica1Application {
 					}
 					break;
 				case 3:
-					System.out.println("---- Hasta luego ----");
-					System.exit(0);
-					break;
+
 				default:
 					System.out.println("Opción no válida");
 					break;
