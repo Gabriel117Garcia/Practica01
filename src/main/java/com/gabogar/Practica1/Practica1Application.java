@@ -44,7 +44,9 @@ public class Practica1Application {
 					}
 					break;
 				case 3:
-
+					System.out.println("Saliendo del programa...");
+					System.exit(0);
+					break;
 				default:
 					System.out.println("Opción no válida");
 					break;
